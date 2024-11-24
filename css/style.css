@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(43, 3, 61);
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.container-title {
+    color: white;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.converter-div {
+    background-color: rgba(74, 91, 165, 0.808);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+    width: clamp(350px, 30%, 600px);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#number {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#convert-btn {
+    padding: 0.7rem;
+    font-size: 20px;
+    width: 30%;
+    min-width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(75, 108, 219);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#convert-btn:hover {
+    background-color: rgb(51, 88, 212);
+}
+
+#output {
+    text-align: center;
+    font-family: 'Playfair Display', 'Merriweather', serif;
+    font-size: 2rem;
+}
